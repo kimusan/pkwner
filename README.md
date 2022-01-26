@@ -5,8 +5,8 @@
 ██╔═══╝ ██╔═██╗ ██║███╗██║██║╚██╗██║██╔══╝  ██╔══██╗
 ██║     ██║  ██╗╚███╔███╔╝██║ ╚████║███████╗██║  ██║
 ╚═╝     ╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
-``` 
 A Python3 PoC for CVE-2021-4034 by Kim Schulz
+``` 
 
 # Intro
 
@@ -26,6 +26,6 @@ The script will create some files and folders but will cleanup after itself when
 
 # Credits
 
-- _Qualys_ for finding the issue and making the info public
-- _Andris Raugulis_ for making one of the first PoCs to get inspired from
-- _MiscGang_ because misgang @ [Kalmarunionen](https://kalmarunionen.dk) are baddass 
+- *Qualys* for finding the issue and making the info public
+- *Andris Raugulis* for making one of the first PoCs to get inspired from
+- *MiscGang* because misgang @ [Kalmarunionen](https://kalmarunionen.dk) are baddass 
