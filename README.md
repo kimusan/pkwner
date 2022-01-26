@@ -26,6 +26,6 @@ The script will create some files and folders but will cleanup after itself when
 
 # Credits
 
-- *Qualys* for finding the issue and making the info public
-- *Andris Raugulis* for making one of the first PoCs to get inspired from
-- *MiscGang* because misgang @ [Kalmarunionen](https://kalmarunionen.dk) are baddass 
+- **Qualys** for finding the issue and making the info public
+- **Andris Raugulis** for making one of the first PoCs to get inspired from
+- **MiscGang** because misgang@[Kalmarunionen](https://kalmarunionen.dk) are baddass 
