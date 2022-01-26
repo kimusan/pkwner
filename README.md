@@ -21,3 +21,11 @@ python3 pkwner.py
 ```
 It should look something like this:
 ![alt text](https://github.com/kimusan/pkwner/raw/main/screenshot.png "screenshot")
+
+The script will create some files and folders but will cleanup after itself when the root shell is popped. 
+
+# Credits
+
+- _Qualys_ for finding the issue and making the info public
+- _Andris Raugulis_ for making one of the first PoCs to get inspired from
+- _MiscGang_ because misgang @ [Kalmarunionen](https://kalmarunionen.dk) are baddass 
